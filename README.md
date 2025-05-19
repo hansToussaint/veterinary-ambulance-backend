@@ -3,18 +3,11 @@
 A small Django + MySQL backend example for managing pet owners, pets, vets, appointments, and vaccines.  
 Built to demonstrate basic CRUD operations and familiarize with Django.
 
----
+## 📄 API Documentation
 
-## 📋 Prerequisites
+Import the Postman collection to explore all endpoints:
 
-- **Python 3.10+**
-- **MySQL**
-- **pip** (comes with Python)
-
----
-
-## 🚀 Getting Started
-
-**Clone the repo**  
- git clone https://github.com/hansToussaint/veterinary-ambulance-backend.git
-cd veterinary-ambulance-backend
+1. Download the file `Veterinary-Ambulance-API.postman_collection.json`  
+2. In Postman → Import → Select the file  
+3. Choose the **Local Django** environment  
+4. Send requests to `{{baseUrl}}/…` and view example responses embedded in each request  
